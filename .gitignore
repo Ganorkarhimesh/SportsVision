@@ -1,0 +1,96 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Environment variables
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# Dataset
+# =========================
+
+dataset/UCF11/
+dataset/features/
+
+# =========================
+# Generated model/results
+# =========================
+
+dataset/models/
+dataset/results/
+dataset/splits.pt
+
+# =========================
+# Uploaded videos
+# =========================
+
+uploads/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.mpg
+*.mpeg
+
+# =========================
+# YOLO generated files
+# =========================
+
+runs/
+yolo_runs/
+
+# =========================
+# Jupyter
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# Node / Next.js
+# =========================
+
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# VS Code
+# =========================
+
+.vscode/
+
+# =========================
+# Python cache / tooling
+# =========================
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
